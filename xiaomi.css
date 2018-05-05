@@ -1,0 +1,283 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.w {
+	width: 1230px;
+	margin: 0 auto;
+}
+ul {
+	list-style: none;
+}
+.one {
+	height: 40px;
+	background: #333;
+}
+.one ul li {
+	height: 40px;
+	text-align: center;
+	float: left;
+	line-height: 40px;
+	color: #b0b0b0;
+}
+.one ul a {
+	border-right: 1px solid #3d423d;
+	text-decoration: none;
+	color: #b0b0b0;
+	padding: 0 9px;
+}
+.three {
+	height: 40px;
+	float: right;
+	line-height: 40px;
+	margin-right: 140px;
+}
+.one .three a {
+	text-decoration: none;
+	color: #b0b0b0;
+	margin:0 10px;
+	padding-right: 9px;
+	border-right: 1px solid #3d423d;
+}
+.four {
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+}
+.four .gg {
+	background: #ff6700;
+	vertical-align: middle;
+}
+.four a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+	padding: 20px;
+}
+.four ul li {
+	float: left;
+	height: 100px;
+}
+.ten {
+	height: 1600px;
+	background: #f5f5f5;
+}
+.five {
+	height: 40px;
+	line-height: 40px;
+	background: #f5f5f5;
+}
+.six {
+	height: 80px;
+	line-height: 80px;
+}
+.six .seven {
+	background: #fff;
+}
+.six .seven ul li {
+	float: left;
+	font-size: 14px;
+	padding: 0 30px;
+}
+.six a {
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #ff6700;
+}
+.eight {
+	height: 460px;
+	background: url(img3/banner.jpg) no-repeat center;
+	margin-bottom: 14px;
+}
+.nine {
+	height: 1000px;
+}
+.nine div {
+	float: left;
+}
+.nine .a {
+	width: 606px;
+	height: 490px;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	position: relative;
+	background: #fff url(img3/pr1.jpg) no-repeat;
+}
+h3 {
+	padding-top: 30px;
+	display: inline-block;
+}
+span {
+	color: #ff6700;
+}
+input {
+	width: 160px;
+	height: 38px;
+	float: right;
+	margin-top: 30px;
+	border-color: #ff6700;
+	color: #ff6700;
+	background: #fff;
+	border-style: solid;
+}
+.nine .a .h {
+	width: 530px;
+	height: 130px;
+	position: absolute;
+	bottom: 0;
+	left: 34px;
+	border-top: 1px solid #ccc;
+}
+.nine .b {
+	width: 606px;
+	height: 490px;
+	margin-bottom: 14px;
+	position: relative;
+	background: #fff url(img3/pr2.jpg) no-repeat;
+}
+.nine .b .h {
+	width: 530px;
+	height: 130px;
+	position: absolute;
+	bottom: 0;
+	left: 34px;
+	border-top: 1px solid #ccc;
+}
+.nine .c {
+	width: 606px;
+	height: 490px;
+	margin-right: 14px;
+	position: relative;
+	background: #fff url(img3/pr3.jpg) no-repeat;
+}
+.nine .c .h {
+	width: 530px;
+	height: 130px;
+	position: absolute;
+	bottom: 0;
+	left: 34px;
+	border-top: 1px solid #ccc;
+}
+.nine .d {
+	width: 606px;
+	height: 490px;
+	position: relative;
+	background: #fff url(img3/pr4.jpg) no-repeat;
+}
+.nine .d .h {
+	width: 530px;
+	height: 130px;
+	position: absolute;
+	bottom: 0;
+	left: 34px;
+	border-top: 1px solid #ccc;
+}
+.f {
+	height: 160px;
+	background: url(img3/phone-section-05.jpg);
+	padding-top: 440px;
+	color: #fff;
+}
+.f .x {
+	height: 160px;
+	background: rgba(0,0,0,0.5);
+	/*padding-top: 46px;*/
+	padding-left: 78px;
+	position: relative;
+}
+h2 {
+	display: inline-block;
+	margin-top: 46px;
+}
+.f .y {
+	position: absolute;
+	right: 36px;
+	background: rgba(0, 0,0,0);
+}
+.f .z {
+	position: absolute;
+	bottom: 26px;
+	right:36px;
+	background: rgba(0, 0,0,0);
+}
+.j {
+	height:80px;
+	border-bottom: 1px solid #ccc;
+}
+.j ul li {
+	width: 244px;
+	float: left;
+	line-height: 80px;
+	text-align: center	
+}
+.j ul li a {
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #ccc;
+}
+dl {
+	float: left;
+}
+.dl {
+	height: 180px;
+	margin-top: 10px;
+}
+.dl dt {
+	width: 160px;
+	font-weight: bold;
+	height: 60px;
+	line-height: 60px;
+}
+.dl dd {
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+}
+.dl .box {
+	width: 260px;
+	height: 116px;
+	float: right;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 12px;
+	border-left: 1px solid #ccc;
+}
+.dl .box .k {
+	color: #ff6700;
+	font-size: 18px;
+}
+.dl .l {
+	width: 120px;
+	height: 30px;
+	margin-right: 68px;
+}
+.o {
+	height: 168px;
+	background: #fafafa;
+	padding-top: 30px;
+}
+.p .q {
+	background: #ff6700;
+	float: left;
+}
+.p p {
+	font-size: 12px;
+	vertical-align: top;
+	text-indent: 8px;
+}
+.p .left {
+	float: left;
+}
+.o .right {
+	float: right;
+	margin-right: 220px;
+}

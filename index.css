@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.w {
+	width: 980px;
+	margin: 0 auto;
+}
+/*版心开始*/
+.one {
+	height: 62px;
+	line-height: 62px;
+}
+.one .right {
+	float: right;
+	margin-top: 10px;
+}
+/*版心结束*/
+/*导航开始*/
+.two {
+	height: 55px;
+	border: 1px solid #ccc;
+	background: url(img3/nav_bg.png);
+}
+ul {
+	list-style: none;
+}
+.two ul li {
+	width: 130px;
+	float: left;
+	font: bold 12px "宋体";
+	text-align: center;
+	background: url(img3/nav_border.png) no-repeat right center;
+}
+.two ul a {
+	color: #000;
+	text-decoration: none;
+	line-height: 56px;
+}
+/*导航结束*/
+.three {
+	height: 32px;
+	background: #fbfbfb;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	line-height: 32px
+}
+.three .a {
+	font-weight: bold;
+}
+.three .b {
+	float: right;
+	margin-top: 8px;
+}
+/*00000000*/
+.seven {
+	height: 300px;
+}
+.four {
+	width: 298px;
+	height: 218px;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 6px;
+	position: relative;
+
+}
+.four .c {
+	height: 38px;
+	background: url(img3/jiantou.png) no-repeat left center;
+}
+.four h3 {
+	font-size: 14px;
+	color: #75b800;
+	line-height: 38px;
+	margin-left: 20px;
+}
+.four .d {
+	width: 110px;
+	height: 148px;
+	margin: 0 auto;
+	background: url(img3/shouji.png);
+}
+.four .left {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+}
+.four .right {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+}
+.five {
+	width: 363px;
+	height: 218px;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 6px;
+	margin-left: 10px;
+}
+.five .f {
+	height: 38px;
+	background: url(img3/jiantou.png) no-repeat left center;
+}
+.five .gg {
+	font-size: 14px;
+	color: #75b800;
+	line-height: 38px;
+	margin-left: 20px;
+}
+.five ul {
+	margin: 0 20px;
+}
+.five .ff {
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 6px;
+}
+.five ul li {
+	font-size: 12px;
+	line-height: 27px;
+	border-bottom: 1px dashed #ccc;
+
+}
+.five ul li a {
+	color: #000;
+	text-decoration: none;
+}
+.six {
+	width: 258px;
+	height: 218px;
+	border: 1px solid #ccc;
+	float: right;
+	padding: 6px;
+}
+.six .e {
+	height: 38px;
+	background: url(img3/jiantou.png) no-repeat left center;
+}
+.six h3 {
+	font-size: 14px;
+	color: #75b800;
+	line-height: 38px;
+	margin-left: 20px;
+}
+.six ul {
+	margin: 0 20px;
+	margin-bottom: 30px;
+}
+.six ul li a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+}
+.six p {
+	font-size: 12px;
+	margin-left: 20px;
+}
+.eight {
+	height: 220px;
+	background: #2d2d2d;
+	border-bottom: 1px dashed #000;
+}
+.eight dl {
+	float: left;
+}
+.eight dt {
+	font-size: 14px;
+	color: #c7c7c7;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.eight dd {
+	font-size: 12px;
+	color: #707070;
+	width: 108px;
+	height: 20px;
+	line-height: 20px;
+}
+.eight .g {
+	float: right;
+}
+.nine {
+	height: 86px;
+	background: #2d2d2d;
+	text-align: center;
+	font-size: 12px;
+	color: #707070;
+}
+.nine p {
+	height: 30px;
+}
